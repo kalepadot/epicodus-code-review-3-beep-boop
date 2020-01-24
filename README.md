@@ -12,7 +12,7 @@ _Web application that takes a user inputed number and returns it ( 0 to user num
 
 * _This is a great place_
 * _to list setup instructions_
-* _in a simple_
+<!-- Jeremy, dont forget to do this once you finish! -->
 * _easy-to-understand_
 * _format_
 
