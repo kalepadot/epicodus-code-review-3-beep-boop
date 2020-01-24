@@ -1,8 +1,13 @@
 var robotResult = function(number) {
   var result = [];
+  // var string = index.toString();
   for (index = 0; index <= number; index++){
-    result.push(index);
+    result.push(" " + index);
+    var string = index.toString();
+     if (string.includes("1")){
+    result.splice(index, 1, " Beep!")
   }
+}
   return result;
 }
 // try switching these
@@ -11,7 +16,7 @@ $("form#robot").submit(function(event) {
   event.preventDefault();
   var number = $("#number").val();
   var result = robotResult(number);
-  // $("#number").val(" ");
+  $("#number").val(" ");
   $("#output").text(result);
   $("#result").show();
 
