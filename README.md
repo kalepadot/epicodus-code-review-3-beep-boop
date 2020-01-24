@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _Beep Boop_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Arrays and Looping Code Review Project for Epicodus 1.24.20_
 
-#### By _**{List of contributors}**_
+#### By _**Jeremy Kale Padot**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Web application that takes a user inputed number and returns it ( 0 to user number) with exceptions: Beeps and boops will replace numbers in selected areas._
 
 ## Setup/Installation Requirements
 
@@ -16,7 +16,29 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _easy-to-understand_
 * _format_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_Specs_
+* The program returns a range of numbers from 0 to the users input number
+  * input: "4"
+  * output: "0,1,2,3,4"
+* Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+  * input: "11"
+  * output: "Beep!"
+* Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+  * input: "2"
+  * output: "Boop!"
+* Numbers that contain a 3: all digits are replaced (all digits) with "i'm sorry, Dave. I'm afraid I can't do that."
+  * input: "3"
+  * output: "i'm sorry, Dave. I'm afraid I can't do that."
+* The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I cant do that."
+  * input: "13" 
+  * output: "I'm sorry, Dave. I'm afraid I can't do that."
+* The number 21 should be replaced with "Boop".
+  * input: "21"
+  * output: "Boop".
+* The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+  * input: "32"
+  * output: "I'm sorry, Dave. I'm afraid I can't do that."
+* The user should be able to enter a new number and see new results over and over again.
 
 ## Known Bugs
 
