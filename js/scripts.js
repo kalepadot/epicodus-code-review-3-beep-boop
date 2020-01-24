@@ -10,7 +10,7 @@ var robotResult = function(number) {
     // result.splice(index, 1, " Boop!")
     if (string.includes("3")){
     result.splice(index, 1, " I'm sorry, Dave. I'm afraid I can't do that.!")
-  }  else if (string.includes("2")){
+  } else if (string.includes("2")){
     result.splice(index, 1 ," Boop!")
   } else if (string.includes("1")){
     result.splice(index, 1, " Beep!" )
@@ -26,7 +26,7 @@ $("form#robot").submit(function(event) {
   event.preventDefault();
   var number = $("#number").val();
   var result = robotResult(number);
-  $("#number").val(" ");
+  $("#number").val(" "); // can possibly delete this?
   $("#output").text(result);
   $("#result").show();
 
