@@ -6,6 +6,8 @@ var robotResult = function(number) {
     var string = index.toString();
      if (string.includes("1")){
     result.splice(index, 1, " Beep!")
+  }  else if (string.includes("2")){
+    result.splice(index, 1 ," Boop!")
   }
 }
   return result;
