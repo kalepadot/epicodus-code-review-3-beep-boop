@@ -19,7 +19,7 @@ var robotResult = function(number) {
   // } else {
   //   $("#sync2").show();
   //   $(".sync").hide();
-  // }
+  }
 }
   return result;
 }
@@ -32,8 +32,9 @@ $("form#robot").submit(function(event) {
   $("#number").val(" "); // can possibly delete this?
   $("#output").text(result);
   $("#result").show();
-  $("#sync2").show();
-  $(".sync").hide();
+  // $("#sync2").show();
+  // $(".sync").hide();
+  
 
 
   });
