@@ -1,4 +1,4 @@
-# _Beep Boop_
+# _Evangelion Pilot Sync (Beep Boop)_
 
 #### _Arrays and Looping Code Review Project for Epicodus 1.24.20_
 
@@ -6,15 +6,15 @@
 
 ## Description
 
-_Web application that takes a user inputed number and returns it ( 0 to user number) with exceptions: Beeps and boops will replace numbers in selected areas._
+_Web application that takes a user inputed number and returns it ( 0 to user number) with exceptions: Beeps and boops will replace numbers in selected areas styled in Neon Genesis theme._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-<!-- Jeremy, dont forget to do this once you finish! -->
-* _easy-to-understand_
-* _format_
+* _If using gh-pages simply click the clink to view 
+
+For Devs, open git repository and copy repo link https://github.com/kalepadot/epicodus-code-review-3-beep-boop.git . In your terminal desktop clone the repo and open in text editor. $ git clone repo link, $ git cd to repo, $ code . (this will open in your text editor) VSCode suggested._
+You will need to download bootstrap vr 3.3.7 and add to your css file. download from the website adn drag to your folder. Make sure your link and script are up to date with applied bootstrap. Same rules apply to jQuery ver 3.4.1. apply to your scrips above js/scripts.js
+There are links to google fonts in the head
 
 _Specs_
 * The program returns a range of numbers from 0 to the users input number
@@ -42,18 +42,27 @@ _Specs_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_Currently working issue where if user inputs text an error message will apear and toggle center gif img. Once bug worked, will add a reset button or if correct user input is used, will take you back to the main page with correct results._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Contact for bug reports and issues/questions:
+Jeremy Kale Padot:  jeremy@padot.us _
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* Macbook Pro
+* VSCode
+* Bootstrap ver 3.7
+* jQuery 3.4.1
+* html
+* CSS
+* JavaScript
+* Terminal 
+* Google fonts ( see link in head )
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+
+Copyright (c) 2020 **_Jeremy Kale Padot / Epicodus -for educational purposes only_**
