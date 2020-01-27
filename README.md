@@ -11,10 +11,10 @@ _Web application that takes a user inputed number and returns it ( 0 to user num
 ## Setup/Installation Requirements
 
 * _If using gh-pages simply click the clink to view 
-
-For Devs, open git repository and copy repo link https://github.com/kalepadot/epicodus-code-review-3-beep-boop.git . In your terminal desktop clone the repo and open in text editor. $ git clone repo link, $ git cd to repo, $ code . (this will open in your text editor) VSCode suggested._
-You will need to download bootstrap vr 3.3.7 and add to your css file. download from the website adn drag to your folder. Make sure your link and script are up to date with applied bootstrap. Same rules apply to jQuery ver 3.4.1. apply to your scrips above js/scripts.js
-There are links to google fonts in the head
+https://kalepadot.github.io/epicodus-code-review-3-beep-boop/
+* For Devs, open git repository and copy repo link https://github.com/kalepadot/epicodus-code-review-3-beep-boop.git . In your terminal desktop clone the repo and open in text editor. $ git clone repo link, $ git cd to repo, $ code . (this will open in your text editor) VSCode suggested._
+* You will need to download bootstrap vr 3.3.7 and add to your css file. download from the website adn drag to your folder. Make sure your link and script are up to date with applied bootstrap. Same rules apply to jQuery ver 3.4.1. apply to your scrips above js/scripts.js
+* There are links to google fonts in the head
 
 _Specs_
 * The program returns a range of numbers from 0 to the users input number
